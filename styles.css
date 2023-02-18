@@ -1,0 +1,213 @@
+body{
+    margin: 0;
+}
+
+.con1{
+    height: 100vh;
+    background-image: url('summer.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+
+.name{
+    font-family: 'Righteous', cursive;
+    font-size: 250%;   
+    padding-left: 3%; 
+    margin-top: 2%;
+}
+
+  /* Links inside the navbar */
+  .con1 a {
+    font-family: 'Changa', sans-serif;
+    color: black;
+    font-size: 25px;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 14px 2%;
+    text-decoration: none;
+    margin-top: 2%;
+  }
+
+  .cos{
+    padding-right: 2%;
+  }
+
+  .con1 a:hover,  a:focus {
+    color: darkorange;
+}
+
+
+.education{
+    height: 100vh;
+    background-image: url('edu.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;   
+}
+
+.sch{
+    font-family: 'Ubuntu', sans-serif;
+    color: aliceblue;
+    padding-left: 2.5%;
+    padding-top: 10%;
+}
+
+.coll{
+    font-family: 'ABeeZee', sans-serif;
+    color: whitesmoke;
+    padding-left: 2%;
+    
+}
+
+.vb1{
+    display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  animation: example 6s linear 0s infinite alternate;
+}
+
+@keyframes example{
+    from{width:0;}
+    to{
+        width: 300px;
+    }
+}
+.skills{
+    height: 100vh;
+    background-image: url('news.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;   
+}
+
+.contact{
+    height: 100vh;
+    background-image: url('contact.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;    
+
+    
+}
+
+.ph{
+    font-family: 'Sacramento', cursive;
+    padding-left: 27%;
+    padding-top: 20%;
+}
+.contact a{
+    text-decoration: none;
+    color: black;
+}
+.ema{
+    font-family: 'Rubik 80s Fade', cursive;
+    padding-left: 26%;
+    padding-top: 10px;
+}
+.ema2{
+    font-family: 'Rubik 80s Fade', cursive;
+    padding-left: 27%;
+    padding-top: 10px;
+}
+
+.connect{
+    height: 100vh;
+    background-image: url('cone.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;    
+}
+.edde{
+    padding-top: 4%;
+}
+.e1{
+    color: lightslategray;
+    font-size: 900%;
+}
+.iiit{
+    color: green;
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+.e2{
+    color: lightslategray;
+    font-size: 900%;
+}
+.sri{
+    font-family: 'Ubuntu', sans-serif;
+    color: lightblue;
+}
+.inter{
+    font-family: 'ABeeZee', sans-serif;
+    color: azure;
+}
+.e3{
+    color: lightslategray;
+    font-size: 900%;
+}
+.dr{
+    font-family: 'Ubuntu', sans-serif;
+    color: palevioletred;
+}
+
+.ss{
+    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+    font-size: 400%;
+    padding-top: 10%;
+    padding-left: 8%;
+}
+.ssp{
+    color: lightslategray;
+    padding-left: 8%;
+}
+.web{
+    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+    font-size: 300%;
+    padding-top: 40%;
+}
+.web2{
+    color:  lightslategray;
+}
+.log{
+    padding-top: 15%;
+    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+    font-size: 300%;
+}
+.log2{
+    color:  lightslategray;
+}
+.pro{
+    padding-left: 36%;
+    padding-top: 40%;
+    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+    font-size: 300%;
+}
+.pro2{
+    color:  lightslategray;
+    padding-left: 36%;
+}
+.pho{
+    padding-top: 15%;
+    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+    font-size: 300%;
+    padding-left: 36%;
+}
+.pho2{
+    color: lightslategray;
+    padding-left: 36%;
+}
+.cpy{
+    color: bisque;
+    font-family: 'Righteous', cursive;
+    padding-top: 42%;
+    font-size: 170%;
+    padding-left: 1.60%;
+}
