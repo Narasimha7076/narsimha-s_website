@@ -39,16 +39,160 @@ body{
   .con1 a:hover,  a:focus {
     color: darkorange;
 }
+@media (min-width:992px)
+{
+    .education{
+        height: 100vh;
+        background-image: url('edu.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;   
+    }
 
+    .skills{
+        height: 100vh;
+        background-image: url('news.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;   
+    }
+    .pro{
+        padding-left: 36%;
+        padding-top: 40%;
+        font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+        font-size: 300%;
+    }
+    .pro2{
+        color:  lightslategray;
+        padding-left: 36%;
+    }
+    .pho{
+        padding-top: 15%;
+        font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+        font-size: 300%;
+        padding-left: 36%;
+    }
+    .pho2{
+        color: lightslategray;
+        padding-left: 36%;
+    }
+    .web{
+        font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+        font-size: 300%;
+        padding-top: 40%;
+    }
+    .ph{
+        font-family: 'Sacramento', cursive;
+        padding-left: 27%;
+        padding-top: 20%;
+        font-size: 220%;
 
-.education{
-    height: 100vh;
-    background-image: url('edu.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;   
+    }
+    .ema{
+        font-family: 'Rubik 80s Fade', cursive;
+        padding-left: 26%;
+        padding-top: 0.75%;
+        font-size: 130%;
+
+    }
+    .ema2{
+        font-family: 'Rubik 80s Fade', cursive;
+        padding-left: 26%;
+        padding-top: 0.75%;
+        font-size: 130%;
+
+    }
+    .connect{
+        height: 100vh;
+        background-image: url('cone.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;    
+    }
+    .cpy{
+        color: bisque;
+        font-family: 'Righteous', cursive;
+        font-size: 170%;
+        padding-top: 90vh;
+    }
 }
+
+@media(max-width:992px)
+{
+    .education{
+
+        background-image: url('edu.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;   
+    }
+
+    .skills{
+        text-align: center;
+        background-image: url('news.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-position: center;   
+    }
+    .pro{
+       
+        padding-top: 15%;
+        font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+        font-size: 300%;
+    }
+    .pro2{
+        color:  lightslategray;
+        
+    }
+    .pho{
+        padding-top: 15%;
+        font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+        font-size: 300%;
+      
+    }
+    .pho2{
+        color: lightslategray;
+        
+    }
+    .web{
+        font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
+        font-size: 300%;
+        padding-top: 35%;
+    }
+    .ph{
+        font-family: 'Sacramento', cursive;
+        padding-top: 60%;
+    }
+    .ema{
+        font-family: 'Rubik 80s Fade', cursive;
+        padding-top: 10px;
+        font-size: 85%;
+    }
+    .ema2{
+        font-family: 'Rubik 80s Fade', cursive;
+        padding-top: 10px;
+        font-size: 85%;
+    }
+    .connect{
+        background-image: url('cone.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        background-repeat: no-repeat;
+        background-position: center;    
+    }
+    .cpy{
+        color: bisque;
+        font-family: 'Righteous', cursive;
+        font-size: 170%;
+        padding-top: 130%;
+    }
+}
+
 
 .sch{
     font-family: 'Ubuntu', sans-serif;
@@ -77,14 +221,8 @@ body{
         width: 300px;
     }
 }
-.skills{
-    height: 100vh;
-    background-image: url('news.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;   
-}
+
+
 
 .contact{
     height: 100vh;
@@ -97,32 +235,19 @@ body{
     
 }
 
-.ph{
-    font-family: 'Sacramento', cursive;
-    padding-left: 27%;
-    padding-top: 20%;
-}
+
 .contact a{
     text-decoration: none;
     color: black;
 }
-.ema{
-    font-family: 'Rubik 80s Fade', cursive;
-    padding-left: 26%;
-    padding-top: 10px;
-}
-.ema2{
-    font-family: 'Rubik 80s Fade', cursive;
-    padding-left: 27%;
-    padding-top: 10px;
-}
+
 
 .connect{
     height: 100vh;
     background-image: url('cone.jpg');
     background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;
+    background-repeat: no-repeat;
     background-position: center;    
 }
 .edde{
@@ -168,11 +293,7 @@ body{
     color: lightslategray;
     padding-left: 8%;
 }
-.web{
-    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
-    font-size: 300%;
-    padding-top: 40%;
-}
+
 .web2{
     color:  lightslategray;
 }
@@ -184,30 +305,5 @@ body{
 .log2{
     color:  lightslategray;
 }
-.pro{
-    padding-left: 36%;
-    padding-top: 40%;
-    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
-    font-size: 300%;
-}
-.pro2{
-    color:  lightslategray;
-    padding-left: 36%;
-}
-.pho{
-    padding-top: 15%;
-    font-family: 'ABeeZee', sans-serif;    color: whitesmoke;
-    font-size: 300%;
-    padding-left: 36%;
-}
-.pho2{
-    color: lightslategray;
-    padding-left: 36%;
-}
-.cpy{
-    color: bisque;
-    font-family: 'Righteous', cursive;
-    padding-top: 42%;
-    font-size: 170%;
-    padding-left: 1.60%;
-}
+
+
